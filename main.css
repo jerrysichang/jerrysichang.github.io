@@ -13,9 +13,6 @@ p {
     color: #E2B29B
 }
 
-
-
-
 h1 {
     color: #ECE4CC;
     font-weight: 100;
@@ -48,14 +45,14 @@ h3 {
     h1 {
         color: #ECE4CC;
         font-weight: 100;
-        font-size: 1.7rem;
-        line-height: 42px;
+        font-size: 1.5rem;
+        line-height: 38px;
     }
     h3 {
         color: #998D7B;
         font-weight: 100;
-        font-size: 1.7rem;
-        line-height: 42px;
+        font-size: 1.5rem;
+        line-height: 38px;
     }
 }
 
