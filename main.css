@@ -13,29 +13,72 @@ p {
     color: #E2B29B
 }
 
+
+
+
 h1 {
     color: #ECE4CC;
     font-weight: 100;
-    font-size: 1.7rem;
-    line-height: 42px;
-}
-h2 {
-    color: #aca9a1;
-    line-height: 48px;
-    font-weight: 500;
-}
-small {
-    color: #1b1a1a;
+    font-size: 2.2rem;
+    line-height: 50px;
 }
 h3 {
     color: #998D7B;
-    line-height: 42px;
+    line-height: 50px;
     font-weight: 100;
-    font-size: 1.7rem;
+    font-size: 2.2rem;
+}
+
+@media (min-width: 568px) {  
+    h1 {
+        color: #ECE4CC;
+        font-weight: 100;
+        font-size: 1.3rem;
+        line-height: 32px;
+    }
+    h3 {
+        color: #998D7B;
+        font-weight: 100;
+        font-size: 1.3rem;
+        line-height: 32px;
+    }
+}
+
+@media (min-width: 768px) {  
+    h1 {
+        color: #ECE4CC;
+        font-weight: 100;
+        font-size: 1.7rem;
+        line-height: 42px;
+    }
+    h3 {
+        color: #998D7B;
+        font-weight: 100;
+        font-size: 1.7rem;
+        line-height: 42px;
+    }
+}
+
+@media (min-width: 992px) { 
+    h1 {
+        color: #ECE4CC;
+        font-weight: 100;
+        font-size: 2.2rem;
+        line-height: 50px;
+    }
+    h3 {
+        color: #998D7B;
+        line-height: 50px;
+        font-weight: 100;
+        font-size: 2.2rem;
+    }
+}
+
+small {
+    color: #1b1a1a;
 }
 h5 {
-    color: #ACA9A1
-;
+    color: #ACA9A1;
     line-height: 32px;
     font-weight: 100;
     font-size: 1.25rem;
