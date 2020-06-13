@@ -18,6 +18,7 @@ p {
     margin-right: 20px;
 }
 
+@media (min-width: 0px) {  
 h1 {
     color: #ECE4CC;
     font-weight: 100;
