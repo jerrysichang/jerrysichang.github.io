@@ -13,10 +13,10 @@ p {
     color: #E2B29B
 }
 
-.margin (
+.margin {
     margin-left: 20px;
     margin-right: 20px;
-)
+}
 
 h1 {
     color: #ECE4CC;
